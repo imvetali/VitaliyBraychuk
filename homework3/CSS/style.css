@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(../IMG/bg.png);
+  font-family: Tahoma, sans-serif;
+}
+
+.container{
+  background-color: #fff;
+  width: 1000px;
+  height: 995px;
+  margin: auto;
+  display: block;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .5);
+  margin-bottom: 40px;
+}
+
+.logo {
+  padding: 13px 0 0 25px;
+  float: left;
+  height: 164px;
+}
+
+.contacts {
+  font-size: 12px;
+  color: #128aa7;
+  padding: 10px 0 0 850px;
+}
+
+td{
+  width: 60px;
+  text-align: center;
+  float: right;
+}
+
+
+td p {
+  ;
+  font-size: 10px;
+  color: #128aa7;
+  text-decoration: underline;
+
+}
+
+.strani{
+  float: right;
+  padding-top: 20px;
+}
+
+.banner{
+  height: 237px;
+  padding-top: 93px;
+}
+
+.menuontop{
+  list-style-type: none;
+  width: 970px;
+  height: 30px;
+  background-color: #333333;
+  border-bottom: 1px black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+  font-size: 14px;
+  border-bottom: 1px solid black;
+  padding-left: 30px;
+  position: relative;
+  z-index: 5;
+}
+
+
+.menuontop li{
+  padding-right: 17px;
+}
+
+
+ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul:after {
+  display: block;
+  clear: both;
+  float: none;
+}
+ul.menuontop > li {
+  float: left;
+  position: relative;
+}
+ul.menuontop > li > a {
+  display: block;
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+  padding-top: 5px;
+  height: 25px;
+}
+
+ul.submenu {
+  display: none;
+  position: absolute;
+  width: 12
+  0px;
+  top: 30px;
+  left: 0;
+  background-color: none;
+}
+ul.submenu > li {
+  display: block;
+}
+ul.submenu > li > a {
+  display: block;
+  padding: 10px;
+  color: white;
+  background-color: #303030;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .5);
+  text-decoration: none;
+}
+ul.submenu > li > a:hover {
+  text-decoration: underline;
+}
+
+
+ul.menuontop > li:hover > ul.submenu {
+  display: block;
+}
+
+
+.fon{
+  height: 550px;
+  overflow: hidden;
+}
+
+.blockleft{
+  width: 210px;
+  height: 550px;
+  background-color: #edeef0;
+  border-right: 1px solid grey;
+  font-size: 14px;
+  float: left;
+  z-index: 1;
+  padding-top: 10px;
+}
+h3{
+  text-align: center;
+}
+
+
+.blockleft  p{
+  font-size: 14px;
+  float: left;
+  color: #424c43;
+  line-height: 2;
+  text-align: center;
+}
+
+
+.center{
+  float: left;
+}
+
+.right{
+  width: 210px;
+  height: 550px;
+  background-color: #edeef0;
+  border-left: 1px solid grey;
+  float: right;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.right p{
+  font-size: 14px;
+  float: left;
+  color: #424c43;
+  line-height: 2;
+  text-align: center
+
+}
+
+.copyright p {
+  text-align: center;
+}
+
+.copyright{
+  font-size: 12px;
+  color: white;
+  margin-top: 10px;
+}
