@@ -1,0 +1,67 @@
+body {
+	background-size: 100% 100%;
+	font-size: 14px;
+	font-family: Tahoma, Arial;
+	list-style: none;
+	color: #fff;
+}
+
+:hover {
+	transition: 0.3s;
+}
+
+li {
+	list-style-type: none;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
+header {
+	padding:0 20px 0 20px;
+	height: 36px;
+	background-image: url(../img/header-bg.jpg);
+	line-height: 36px;
+}
+
+header menu {
+	margin-right: 25px;
+}
+
+header menu li {
+	display: inline-block;
+}
+
+header menu a {
+	text-decoration: none;
+	padding: 0px 25px 0px 20px;
+	color: #60b5ed;
+	display: block;
+}
+
+
+header menu a:hover {
+	background-color: #4eabda;
+	color: #fff;
+}
+
+header .login,
+.offer, a {
+	color: #fff;
+}
+
+
+
